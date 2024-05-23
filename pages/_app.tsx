@@ -20,10 +20,12 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
-        <ThemeToggle onClick={handleTheme} isDark={theme === "dark"}>
-          {theme === "dark" ? "LIGHT MODE" : "DARK MODE"}
-        </ThemeToggle>
-        <Component {...pageProps} />
+        <>
+          <ThemeToggle onClick={handleTheme} isDark={theme === "dark"}>
+            {theme === "dark" ? "LIGHT MODE" : "DARK MODE"}
+          </ThemeToggle>
+          <Component {...pageProps} />
+        </>
       </ThemeProvider>
     </>
   );
