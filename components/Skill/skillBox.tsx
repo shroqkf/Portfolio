@@ -27,7 +27,7 @@ const Container = styled.div`
     top: -1.5rem;
     border: 0.2rem solid ${({ theme }) => theme.color.white};
     color: ${({ theme }) => theme.color.blue};
-    background-color: ${({ theme }) => theme.color.black};
+    background-color: ${({ theme }) => theme.color.white};
     padding: 0.5rem 1rem;
     font-size: 2rem;
     font-weight: 800;

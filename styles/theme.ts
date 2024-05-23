@@ -21,6 +21,7 @@ export const darkTheme: DefaultTheme = {
     blue: "#3EFFFF",
     red: "#FF5E5E",
     white: "#FFFFFF",
+    gray: "#2d3943",
   },
 };
 export const lightTheme: DefaultTheme = {
@@ -29,6 +30,7 @@ export const lightTheme: DefaultTheme = {
     blue: "#6400ff",
     red: "#00ff50",
     white: "#000000",
+    gray: "aliceblue",
   },
 };
 

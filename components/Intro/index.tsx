@@ -39,7 +39,11 @@ I’m actively expanding my interest in development regardless of field.`}</div>
         <div>{`Every time, new plans and challenges have been a great stimulus.
 I would like to give myself new tasks and create opportunities to continue to grow.`}</div>
       </Wrapper>
-      {showSkills && <SkillsContainer><Skill /></SkillsContainer>}
+      {showSkills && (
+        <SkillsContainer>
+          <Skill />
+        </SkillsContainer>
+      )}
     </>
   );
 };
@@ -85,7 +89,8 @@ const Wrapper = styled(Container)`
 
 const SkillsContainer = styled.div`
   padding: 15rem;
-  background-color: #1a1919;
+  border-radius: 7%;
+  background-color: ${({ theme }) => theme.color.gray};
 `;
 
 export default Intro;
