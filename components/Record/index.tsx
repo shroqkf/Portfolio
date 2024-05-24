@@ -13,7 +13,7 @@ const records = [
           "홍익대학교 경영대학 마케팅경진 대회" +
           "(My Attractive Marketing Awards)",
         info: "본상 수상",
-        date: "2022.08.10-2022.09.15",
+        date: "2022.08.20-2022.11.25",
       },
     ],
   },
