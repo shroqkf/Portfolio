@@ -4,14 +4,13 @@ import { media } from "../../styles/theme";
 import SkillBox from "./skillBox";
 
 const strongList = [
+  "Javascript",
   "React",
   "Typescript",
-  "Javascript",
-  "SCSS",
   "Styled",
   "Tailwind CSS",
   "Next.js",
-  "Recoil",
+  "Redux",
 ];
 
 const Skill = () => {
