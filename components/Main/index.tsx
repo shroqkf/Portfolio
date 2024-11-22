@@ -151,7 +151,7 @@ const Wrapper = styled(Container)`
   .title {
     position: sticky;
     top: 0;
-    font-size: 14.4rem;
+    font-size: 13.4rem;
     font-weight: 900;
     width: 100%;
     line-height: 17.6rem;
